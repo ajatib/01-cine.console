@@ -5,6 +5,9 @@
  */
 package ejercicio1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Alumno
@@ -18,14 +21,11 @@ public class Genero {
     public Genero(String nombre) {
         this.nombre = nombre;
     }
-
     // A continuación se listan todos los métodos de seteo 
     // de cada atributo de la clase
-
     public String getNombre() {
         return this.nombre;
     }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -35,5 +35,4 @@ public class Genero {
         return this.nombre;
     }
        
-    
 }

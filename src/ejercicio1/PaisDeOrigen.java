@@ -51,6 +51,6 @@ public class PaisDeOrigen {
     }
     @Override
     public String toString() {
-        return this.nombre + " - " + this.idioma;
+        return this.nombre + "/" + this.idioma;
     }  
 }
